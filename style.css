@@ -992,6 +992,7 @@ button a{
 		width: 88vw;
 	}
 	.social{
+		height: 6vh;
 		width: 40vw;
 		margin-left: 12vh;
 	}
@@ -1019,7 +1020,7 @@ button a{
 		width: 20vw;
 	}
 	.aboutMe{
-		height: 202vh;
+		height: 205vh;
 	}
 
 	.general{
@@ -1033,7 +1034,7 @@ button a{
 		height: 52vh;
 	}
 	.projects{
-		height: 170vh;
+		height: 172vh;
 	}
 	.myPortfolio{
 		height: 60vh;
