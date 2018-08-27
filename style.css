@@ -1,0 +1,1082 @@
+:root {
+	font-size: 16px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Flamenco', cursive;
+
+
+}
+
+.container{
+			padding: 1px;
+			background-image: url(background.png);
+			margin: 0;
+		}
+
+.nav-bar{
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 14vh;
+	width: 96vw;
+	background-color: black;
+	margin: 2vh 3vh 0vh 3vh;
+	border-radius: 3vh; 
+	box-shadow: 0 0 35px rgba(0,0,0,1);
+	z-index: 1;
+
+}
+
+.logo{
+	color: black;
+	text-align: center;
+	width: 10vh;
+	height: 10vh;
+	font-size: 1.8rem;
+	font-weight: bolder;
+	border: 4px solid grey;
+	border-radius: 20px;
+	background-color: white;
+	margin-left: 2vh;
+	margin-top: 1.2vh;
+	line-height: 30px;
+}
+
+.search{
+	display: inline-flex;
+	height: 3.5vh;
+	margin-top: 4.6vh;
+	width: 20vw;
+	padding-left: 2vh;
+	border-radius: 5vh;
+	border-color: grey;
+	border-width: 5px;
+	font-family: 'Flamenco', cursive;
+}
+
+button{
+	height: 5vh;
+	margin-top: 4.6vh;
+	width: 10vw;
+	border-radius: 5vh;
+	border-color: grey;
+	border-width: 5px;
+	font-family: 'Flamenco', cursive;
+}
+
+button a{
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+.main-nav{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 3vh;
+	margin-top: 3vh;
+	width: 35vw;
+	list-style: none;
+	
+}
+.main-nav li a{
+	font-size: 2rem;
+	color: white;
+	text-decoration: none;
+	border-bottom: 5px solid grey;
+	margin-left: 5vh;
+
+
+}
+
+.main-nav li:hover{
+	text-decoration: none;
+	animation: bounce 1.5s;
+
+}
+
+.searchBar{
+	display: flex;
+	justify-content:flex-end;
+	max-width: 40vw; 	
+
+}
+
+.mobile-icon{ display: none; }
+
+.section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 17vh;
+}
+.image{
+	position: relative;
+	display: flex;
+	max-width: 60vw;
+	justify-content: flex-end;
+	margin: 9vh 0vh 0vh 0vh;
+	height: 73vh;
+
+}
+
+
+#face{position: relative;
+	height:73vh;
+}
+
+
+.card{
+	position: relative;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	transform: translateY(-10vh);
+
+}
+.symbol{
+	font-weight: bold;
+	text-decoration: none;
+	color: transparent;
+	text-shadow: 0 0 10px rgba(0,0,0,1);
+	font-size: 5rem;
+	animation:blinkingText 0.9s infinite;
+}
+@keyframes blinkingText{
+    100%{color: transparent;}
+    49%{color: transparent;}
+    50%{color: black;}
+    99%{color:grey;}
+    0%{color: transparent}
+
+}
+
+.hord{
+	height: 20vh;
+	width: 40vw;
+	margin-top: 50vh;
+	margin-left: 10vh;
+}
+.banner{position: absolute;
+	height: 15vh;
+	width: 38vw;
+	background-color: white;
+	border: 5px solid black;
+	border-radius: 30px;
+	box-shadow: 0 0 35px rgba(0,0,0,1);
+	
+
+}
+
+.hire{
+	position: relative;
+	padding-top: 1vh;
+	margin-top: 12vh;
+	margin-left: 11vw;
+	background-color: black;
+	height: 6vh;
+	width: 27vh;
+	text-align: center;
+	border: 5px solid grey;
+	border-radius: 20px;
+}
+
+.hire a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.8rem;
+	letter-spacing: .5vh;
+}
+
+.name{
+	font-weight: bold;
+	font-size: 5rem;
+	margin-left: 4vh;
+
+}
+
+.think{
+	display: flex;
+	height: 48vh;
+	transform: translateX(15vh) translateY(-7vh);
+	animation-delay: 0.6s;
+
+}
+
+.text{	position: absolute;
+		transform: translateX(6vh);
+		}
+
+.text p{
+	color: black;
+	font-weight: bold;
+	text-shadow: 2px 2px grey;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 8vh;
+	animation: bounceimg 2s steps(6) infinite;
+	line-height: 6vh;
+
+}
+
+
+#tnk{
+	height: 48vh;
+	width: 65vh;
+	animation: bounceimg 2s steps(6) infinite;
+	
+}
+
+.aboutMe{
+	position: relative;
+	width: 95vw;
+	height: 165vh;
+	margin-left: 3vh;
+	background-color: white;
+	border: 5px solid black;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.about{
+	position: absolute;
+	width: 90vw;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+	font-size: 3rem;
+	margin: 2vh 4vh 0 3vh;
+	padding-top: 1vh;
+	border: 5px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	text-align: center;
+	
+}
+
+.card1{
+	transform: translateY(-3vh);
+}
+
+.top{
+	font-weight: bold;
+	text-decoration: none;
+	color: transparent;
+	text-shadow: 0 0 10px rgba(0,0,0,1);
+	font-size: 75px;
+	animation:blinkingText 0.9s infinite;
+}
+.general{
+	margin: 18vh 4vh 0vh 4vh;
+	text-align: center;
+	height: 45vh; 
+	border: 5px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.general h1{
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	margin: 2vh 2vh 0vh 2vh;
+	padding: 1vh 0vh 1vh 0vh;
+	border: 5px solid grey;
+	border-radius: 20px;
+}
+
+.general p{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.education{
+	margin: 5vh 4vh 0vh 4vh;
+	text-align: center;
+	height: 40vh; 
+	border: 5px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.education h1{
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	margin: 2vh 2vh 0vh 2vh;
+	padding: 1vh 0vh 1vh 0vh;
+	border: 5px solid grey;
+	border-radius: 20px;
+}
+
+.education p{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.skill {
+	margin: 5vh 4vh 0vh 4vh;
+	text-align: center;
+	height: 40vh; 
+	border: 5px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.skill h1{
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	margin: 2vh 2vh 0vh 2vh;
+	padding: 1vh 0vh 1vh 0vh;
+	border: 5px solid grey;
+	border-radius: 20px;
+}
+
+
+.skill p{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.projects{
+	position: relative;
+	width: 95vw;
+	height: 145vh;
+	margin-top: 5vh;
+	margin-left: 3vh;
+	background-color: white;
+	border: 5px solid black;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.project{
+	position: absolute;
+	width: 90vw;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+	font-size: 3rem;
+	margin: 2vh 4vh 0 3vh;
+	padding-top: 1vh;
+	border: 5px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	text-align: center;
+	
+}
+
+.myPortfolio{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 18vh 4vh 0vh 4vh;
+	height: 55vh;
+	border:5px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+#port{
+	margin: 5vh 0vh 0vh 2vh;
+	height: 20vw;
+	border: 5px solid black;
+}
+
+.myPortfolio p{
+	text-align: center;
+	margin-left: 4vh;
+	font-weight: bold;
+	font-size: 2.3rem;
+}
+
+.helmet{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 5vh 6vh 0vh 4vh;
+	height: 55vh;
+	border:5px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+	
+#hel{
+	height: 22vw;
+	margin: 4vh 2vh 0vh 5vh;
+	border: 5px solid black;
+
+}
+
+.helmet p{
+	text-align: center;
+	margin-left: 2vh;
+	font-weight: bold;
+	font-size: 2.3rem;
+}
+
+.contacts{
+	width: 95vw;
+	height: 30vh;
+	border: 5px solid grey;
+	border-radius: 20px;
+	background-color: black;
+	margin-top: 2vh;
+	margin-left: 3vh;
+	margin-bottom: 2vh;
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	text-align: center;
+}
+
+.contacts h1{
+	color: white;
+	font-weight: bold;
+	font-size: 3rem;
+	margin: 1vh 0 0 0;
+}
+
+.contacts a{
+	color: white;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 6vh;
+}
+
+.social{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1vh;
+	margin-left: 35vw;
+	width: 25vw;
+	height: 8vh;
+	background-color: white;
+	border-radius: 20px;
+}
+
+#facebook{
+	margin-top: .5vh;
+	height: 3.5vw;
+}
+
+#insta{
+	margin-top: .5vh;
+	height: 3.5vw;
+}
+
+#link{
+	margin-top: .5vh;
+	height: 3.5vw;
+}
+
+
+@media only screen and (max-width: 1350px){
+	.name{
+		font-size: 4.5rem;
+	}
+}
+
+@media only screen and (max-width: 1220px){
+	.name{
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (max-width: 1090px){
+	#face{
+		height: 68vh;
+		margin-top: 10vh;
+	}
+
+	.think{
+		height: 42vh;
+		transform: translateX(10vh);
+	}
+
+	#tnk{
+		height: 42vh;
+		width: 59vh;
+	}
+
+	.text p{
+		margin-top: 3vh;
+	}
+
+	.name{
+		font-size: 3.3rem;
+	}
+
+	.banner{ 
+		height: 12vh;
+	}
+
+	.hord{
+		margin-top: 58vh; 
+	}
+
+	.hire{
+		margin-top: 9vh;
+		width: 22vh;
+		height: 5vh;
+	}
+
+	.main-nav li a{
+		font-size: 1.8rem;
+	}
+
+	.aboutMe{
+		height: 172vh;
+	}
+
+	.education{
+		height: 43vh;
+	}
+
+	.skill{
+		height: 43vh;
+	}
+
+	.helmet p{
+		font-size: 2.2rem;
+	}
+}
+
+@media only screen and (max-width: 990px){
+	#face{
+		height: 62vh;
+		margin-top: 13vh;
+	}
+
+	.searchBar{
+		flex-direction: column;
+	}
+
+	.search{
+		margin-top: 0;
+	}
+
+	button{
+		margin-top: 0;
+	}
+
+	#tnk{
+		height: 38vh;
+		width: 55vh;
+		margin-top: 2vh;
+		margin-left: 2vh;
+	}
+
+	.text p{
+		margin-top: 5vh;
+	}
+
+	.hire{
+		margin-left: 8vw;
+	}
+
+	.main-nav li a{
+		margin-left: 3vh;
+	}
+
+}
+
+@media only screen and (max-width: 935px){
+
+	.logo{
+		width: 8vw;
+		height: 9vh;
+		margin-top: 2vh;
+	}
+
+
+
+	.helmet p{
+		font-size: 2.2rem;
+	}
+
+	#face{
+		height: 58vh;
+		margin-top: 16vh;
+	}
+
+	#tnk{
+		height: 34vh;
+		width: 	48vh;
+		margin-top: 4vh;
+	}
+
+
+	.text p{
+		font-size: 	1.8rem;
+	}
+
+	.name{
+		font-size: 	3rem;
+	}
+
+	.general p{
+		font-size: 1.8rem;
+	}
+
+	.myPortfolio p{
+		font-size: 2.2rem;
+	}
+
+	.helmet p{
+		font-size: 2rem;
+	}
+
+}
+
+@media only screen and (max-width: 860px){
+	.section{
+		flex-direction:	column;
+		margin-top: 15vh;
+	}
+
+	.image{
+		order: -1;
+		margin-left: 38vw;
+		margin-top: -1vh;
+	}
+
+	#face{
+		height: 48vh;
+	}
+
+	#tnk{
+		height: 32vh;
+		width: 	42vh;
+	}
+
+	.text p{
+		font-size: 1.5rem;
+		line-height: 5vh;
+		margin-left: -1vh;
+		margin-top: 7vh;
+	}
+
+	.hord{
+		margin-top: -8vh;
+		margin-left: 4vh;
+	}
+
+	.banner{
+		height: 12vh;
+		width: 	80vw;
+		margin-left: 0vh;
+	}
+
+	.name{
+		font-size: 	5rem;
+	}
+
+	.hire{
+		margin-top: 10vh;
+		margin-left: 55vw;
+		animation-name: slideInRight;
+	}
+	.card{
+		transform: 	translateY(	-8vh);
+	}
+
+	.general p{
+		font-size: 1.8rem;
+	}
+
+	.education p{
+		font-size: 1.8rem;
+	}
+
+	.skill p{
+		font-size: 1.8rem;
+	}
+
+	.myPortfolio p{
+		font-size: 1.8rem;
+	}
+
+	.helmet p{
+		font-size: 1.8rem;
+	}
+
+	.social{
+		height: 5vh;
+	}	
+
+	.mobile-icon{ 
+				position: relative;
+				display: flex;
+				color: 	white;
+				text-decoration: none;
+				margin-top: 3vh;
+				margin-right: 2vh;
+				}
+
+	.mobile-icon i{ 
+					font-size: 	3.5rem;
+					}
+
+	.main-nav{
+		display: none;
+		justify-content: center;
+		position: absolute;
+		flex-direction: column;
+		width: 20vh;
+		height: 22vh;
+		line-height: 4.5vh;
+		padding-bottom: 3vh;
+		margin-top: 15vh;
+		background-color: black;
+		border-radius: 20px;
+		box-shadow: 0 0 35px rgba(0,0,0,1);
+	}
+
+	.main-nav li a{
+		margin-left: 0vh;
+		font-size: 2rem;
+	}
+
+
+	.nav-bar{
+		width: 94vw;
+	}
+
+	.logo{
+		width: 10vw;
+		height: 9vh;
+	}
+
+	.searchBar{
+		flex-direction: row;
+	}
+
+	.search{
+		margin-top: 3.8vh;
+	}
+
+	button{
+		margin-top: 3.8vh;
+		width: 15vw;
+	}
+	
+}
+
+@media only screen and (max-width: 768px){
+	.aboutMe{
+		height: 173vh;
+		width: 93vw;
+	}
+
+	.about{
+		width: 86vw;
+	}
+	.general{
+		height: 47vh;
+	}
+
+	.projects{
+		width: 93vw;
+	}
+
+	.project{
+		width: 86vw;
+	}
+
+	.myPortfolio{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#port{
+		width: 50vw;
+	}
+
+	.helmet{
+		flex-direction: column;
+		align-items: center;
+		height: 65vh;
+	}
+
+	#hel{
+		order: -1;
+		width: 50vw;
+	}
+
+	.projects{
+		height: 155vh;
+	}
+
+	.contacts{
+		width: 93vw;
+	}
+	.contacts a{
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 660px){
+	#face{
+		height: 40vh;
+		margin-top: 24vh;
+	}
+
+	#tnk{
+		height: 32vh;
+		width: 40vh;	
+	}
+
+	.think{
+		height: 40vh;
+		transform: translateX(7vh) translateY(5vh);
+	}
+
+	.banner a{
+		font-size: 4rem;
+	}
+	.aboutMe{
+		height: 184vh;
+	}
+	.general{
+		height: 52vh;
+	}
+	.general p{
+		font-size: 1.7rem;
+	}
+	.skill{
+		height: 48vh;
+	}
+	.education p{
+		font-size: 1.7rem;
+	}
+	.skill p{
+		font-size: 1.7rem;
+	}
+
+}
+
+@media only screen and (max-width: 570px){
+	#face{
+		height: 35vh;
+		margin-top: 30vh;
+	}
+
+	.think{
+		height: 35vh;
+		transform: translateX(12vh) translateY(0vh);
+	}
+
+	#tnk{
+		height: 28vh;
+		width: 36vh;
+	}
+
+	.text p{
+		font-size: 1.3rem;
+		margin-top: 5vh;
+	}
+	.logo{
+		font-size: 1.5rem;
+		height: 8vh;
+	}
+	
+	.education{
+		height: 45vh;
+	}
+
+	.contacts{
+		height: 35vh;
+	}
+
+	.social{
+		width: 25vw;
+	}
+}
+
+@media only screen and (max-width: 530px){
+	:root{
+		font-size: 15px;
+	}
+
+	.logo{
+		width: 12vw;
+	}
+
+	.banner a{
+		margin-left: 2vh;
+	}
+}
+
+@media only screen and (max-width: 465px){
+	.nav-bar{
+		width: 92vw;
+	}
+
+	button{
+		width: 22vw;
+	}
+
+	#face{
+		height: 30vh;
+		margin-top: 35vh;
+	}
+	.think{
+		height: 35vh;
+		transform: translateX(18vh) translateY(2vh);
+	}
+	.banner{
+		height: 8vh;
+	}
+	.banner a{
+		font-size: 3rem;
+	}
+	.hire{
+		height: 4vh;
+		width: 30vw;
+		margin-top: 6.5vh;
+		margin-left: 45vw;
+
+	}
+	.hire a{
+		font-size: 1.2rem;
+	}
+
+	.aboutMe{
+		width: 89vw;
+	}
+
+	.about{
+		width: 78vw;
+	}
+
+	.general p{
+		font-size: 1.5rem;
+	}
+
+	.education p{
+		font-size: 1.5rem;
+	}
+
+	.skill p{
+		font-size: 1.5rem;
+	}
+	.projects{
+		width: 89vw;
+	}
+	.project{
+		width: 78vw;
+	}
+	#port{
+		width: 55vw;
+		height: 18vh;
+		margin-left: 0;
+	}
+	.myPortfolio p{
+		font-size: 1.6rem;
+		margin: 0;
+	}
+	#hel{
+		height: 18vh;
+		margin-left: 0;
+	}
+	.helmet p{
+		font-size: 1.6rem;
+		margin:0;
+	}
+
+	.contacts{
+		width: 88vw;
+	}
+	.social{
+		width: 40vw;
+		margin-left: 12vh;
+	}
+
+	#facebook{
+		height: 8vw;
+	}
+
+	#insta{
+		height: 8vw;
+	}
+
+	#link{
+		height: 8vw;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.logo{
+		line-height: 22px;
+		height: 7vh;
+	}
+
+	button{
+		width: 20vw;
+	}
+	.aboutMe{
+		height: 202vh;
+	}
+
+	.general{
+		height: 60vh;
+	}
+	.education{
+		height: 50vh;
+	}
+
+	.skill{
+		height: 52vh;
+	}
+	.projects{
+		height: 170vh;
+	}
+	.myPortfolio{
+		height: 60vh;
+	}
+	.helmet{
+		height: 75vh;
+	}
+}
+
+@media only screen and (max-width: 1090px) and (max-height: 675px){
+	:root{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-height: 580px){
+	:root{
+		font-size: 12px;
+	}
+
+	.logo{
+		line-height: 3vh;
+	}
+}
+
+@media only screen and (max-width: 420px) and (max-height: 825px) and (min-height: 800px){
+	#tnk{
+		width: 32vh;
+	}
+
+	.hire{
+		width: 18vh;
+	}
+}
+@keyframes bounceimg {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateX(10px);
+		transform: translateX(10px);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+
